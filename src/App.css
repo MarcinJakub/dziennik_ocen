@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+table{
+  border-collapse: collapse;
+}
+
+table > thead > th{
+  border: 1px solid black;
+  background-color: deepskyblue;
+  padding: 10px;
+}
+
+table > tbody > td{
+  border: 1px solid black;
+  background-color: azure;
+  padding: 10px;
+}
+
+
